@@ -1,4 +1,4 @@
-"# TB_Burden-List
+# TB_Burden-List
 Tuberculosis Burden Data of vulnerable countries (15 years average)
 
 Docker Hub repository link for Docker images:
