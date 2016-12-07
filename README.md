@@ -1,4 +1,4 @@
-# TB_Burden-List
+"# TB_Burden-List
 Tuberculosis Burden Data of vulnerable countries (15 years average)
 
 Docker Hub repository link for Docker images:
@@ -12,21 +12,21 @@ Second image, tagged as parameterized is a general image for getting data of var
 
 # How to get the results?
 1. install and initialize Docker CLI
-2. run the following command for Nigeria (specific)
+2. run the following command without quotes for Nigeria (specific)
 
-docker pull rutulparikh/tb-wf:nigeria
+"docker pull rutulparikh/tb-wf:nigeria"
 
 The command will pull the image from docker.io, to get the result
 
-docker run rutulparikh/tb-wf:nigeria
+"docker run rutulparikh/tb-wf:nigeria"
 
 3. run the following command for general (non-specific)
 
-docker pull rutulparikh/tb-wf:parametrized
+"docker pull rutulparikh/tb-wf:parametrized"
 
 It will pull the image from docker.io, to get the result for specific country
 
-docker run rutulparikh/tb-wf:parameterized country=Kenya
+"docker run rutulparikh/tb-wf:parameterized country=Kenya"
 
 This will get you the result of Kenya TB Burden data. You can put other countries in place of Kenya.
 
