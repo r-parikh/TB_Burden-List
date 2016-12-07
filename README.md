@@ -11,22 +11,22 @@ Second image, tagged as parameterized is a general image for getting data of var
 
 
 # How to get the results?
-1. install and initialize Docker CLI
+1. Install and initialize Docker CLI
 2. run the following command without quotes for Nigeria (specific)
 
-"docker pull rutulparikh/tb-wf:nigeria"
+<pre>docker pull rutulparikh/tb-wf:nigeria</pre>
 
 The command will pull the image from docker.io, to get the result
 
-"docker run rutulparikh/tb-wf:nigeria"
+<pre>docker run rutulparikh/tb-wf:nigeria</pre>
 
 3. run the following command for general (non-specific)
 
-"docker pull rutulparikh/tb-wf:parametrized"
+<pre>docker pull rutulparikh/tb-wf:parametrized</pre>
 
 It will pull the image from docker.io, to get the result for specific country
 
-"docker run rutulparikh/tb-wf:parameterized country=Kenya"
+<pre>docker run rutulparikh/tb-wf:parameterized country=Kenya"</pre>
 
 This will get you the result of Kenya TB Burden data. You can put other countries in place of Kenya.
 
